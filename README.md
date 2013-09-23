@@ -48,5 +48,5 @@ open KeePass 2.x on Windows
 
 Before deleting your old SplashID database, be sure that all the records imported fine. At end of process, delete all your temporary export and import files from your disk.
 
-Ch. Bueche <bueche@netnea.com>, 23.9.2013
+bueche@netnea.com, 23.9.2013
 
