@@ -6,12 +6,11 @@ convert from SplashID Safe to KeePass Password Safe
 Installation
 ------------
 
-stdlib's csv module does not support Unicode
-use unicodecsv from Jeremy Dunck
+stdlib's csv module does not support Unicode, so use unicodecsv from Jeremy Dunck
 
-- git clone https://github.com/jdunck/python-unicodecsv.git
-- cd python-unicodecsv
-- sudo python setup.py install
+    git clone https://github.com/jdunck/python-unicodecsv.git
+    cd python-unicodecsv
+    sudo python setup.py install
 
 Usage
 -----
@@ -24,7 +23,7 @@ in SplashID for Mac :
 - save
 - mail : no
 
-python ./splashid_to_keepass.py -i export_csv.csv -o import.csv
+    python ./splashid_to_keepass.py -i export_csv.csv -o import.csv
 
 open KeePass 2.x on Windows
 
@@ -47,5 +46,7 @@ open KeePass 2.x on Windows
 - check the preview to see if the import would work as expected
 - go for it
 
-before deleting your old SplashID database, be sure that all the records imported fine.
-at end of process, delete all your temporary export and import files from your disk
+Before deleting your old SplashID database, be sure that all the records imported fine. At end of process, delete all your temporary export and import files from your disk.
+
+Ch. Bueche <bueche@netnea.com>, 23.9.2013
+
