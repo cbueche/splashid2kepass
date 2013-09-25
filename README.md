@@ -1,12 +1,16 @@
 splashid2kepass
 ===============
 
-convert from SplashID Safe to KeePass Password Safe
+convert from SplashID Safe to KeePass Password Safe CSV format for importation using generic CSV importer
+
+- support for MacRoman and Windows encodings
+- merges SplashID fields 5-9 to the end of Notes
+
 
 Installation
 ------------
 
-stdlib's csv module does not support Unicode, so use unicodecsv from Jeremy Dunck
+stdlib's csv module does not support Unicode, so use unicodecsv from Jeremy Dunck instead.
 
     git clone https://github.com/jdunck/python-unicodecsv.git
     cd python-unicodecsv
