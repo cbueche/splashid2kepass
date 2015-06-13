@@ -4,6 +4,7 @@
 #
 # Ch. Bueche <bueche@netnea.com>
 # 23.9.2013 : initial version
+# 13.6.2015 : import csv to get its error list
 #
 # ------------------------------------------------------------------------------------------
 # installation and usage : https://github.com/cbueche/splashid2kepass
@@ -13,6 +14,7 @@
 from optparse import OptionParser
 import os.path
 import unicodecsv
+import csv
 import sys
 import time
 
